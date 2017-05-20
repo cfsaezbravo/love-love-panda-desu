@@ -27,9 +27,14 @@ body{
 
 h1 {
 	text-align: right;
-	margin-right: 20px;
 	font-size: 3rem;
+	margin-right: 20px;
 	margin-bottom: 20px;
+}
+
+h2 {
+	padding-top: 20px;
+	font-size: 2rem;
 }
 
 .subtitulo {
@@ -39,14 +44,13 @@ h1 {
 	margin-bottom: 20px;
 }
 
-
-.imagen1 img, .imagen2 img{
+.imagen1 img, .imagen2 img, .imagen3 img{
 	width: 100%;
 	filter: grayscale(100%);
 	margin-bottom: 20px;
 }
 
-#content {
+.content {
 	background-color: #ABE188;
 	color: whitesmoke;
 	text-align: center;
@@ -59,4 +63,32 @@ h1 {
 	padding: 30px;
 	display: inline-block;
 }
+
+#todas-img {
+	background-color: #ABE188;
+	color: whitesmoke;
+	text-align: center;
+	margin-bottom: 20px;
+	padding: 80px;
+}
+
+#todas-img img{
+	border: 10px solid whitesmoke;
+	margin: 0 20px;
+}
+
+#images {
+	margin-bottom: 20px;
+}
+
+footer p{
+	color: whitesmoke;
+	text-align: right;
+	margin: 20px 20px 15px;
+	font-weight: bolder;
+	font-size: 1.5em;
+}
+
+
+
 
