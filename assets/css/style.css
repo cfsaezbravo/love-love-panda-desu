@@ -6,3 +6,57 @@ font-family: 'Raleway', sans-serif;
 */
 
 /* Escribe tu código acá debajo */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway';
+}
+
+body{
+	background-color: #F78E69;
+}
+
+#banner-inicio{
+	background-size: cover;
+	color: whitesmoke;
+	padding: 40px 0;
+	box-sizing: 200px;
+}
+
+h1 {
+	text-align: right;
+	margin-right: 20px;
+	font-size: 3rem;
+	margin-bottom: 20px;
+}
+
+.subtitulo {
+	text-align: right;
+	margin-right: 20px;
+	font-size: 1rem;
+	margin-bottom: 20px;
+}
+
+
+.imagen1 img, .imagen2 img{
+	width: 100%;
+	filter: grayscale(100%);
+	margin-bottom: 20px;
+}
+
+#content {
+	background-color: #ABE188;
+	color: whitesmoke;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.about {
+	background-color: #F78E69;
+	margin: 80px 180px;
+	padding: 30px;
+	display: inline-block;
+}
+
